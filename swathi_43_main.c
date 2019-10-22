@@ -13,6 +13,7 @@ void test_sort( int32_t time[], uint32_t len)
 
 void test_heap()
 {
+	int size=64;
 	int32_t time[] = { 0, 2300, 1300, 700};
 	int32_t plane_no[]={ 12, 23, 25, 56};
 	char event[]={'t','l','l','t'};   // t-takeoff, l-landing
